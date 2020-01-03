@@ -14,9 +14,9 @@ mp4btn.addEventListener('click', () => {
 });
 
 function redirectMp3(query) {
-  window.location.href = `${server}/downloadmp3?url=${query}`;
+  window.location.href = `${server}downloadmp3?url=${query}`;
 }
 
 function redirectMp4(query) {
-  window.location.href = `${server}/downloadmp4?url=${query}`;
+  window.location.href = `${server}downloadmp4?url=${query}`;
 }
