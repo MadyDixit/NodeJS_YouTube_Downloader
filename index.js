@@ -8,7 +8,7 @@ const port = process.env.PORT || 8000;
 app.use(cors());
 
 app.listen(port, () => {
-  console.log('Server Works !!! At port 4000');
+  console.log('Server Works');
 });
 app.use(express.static('public'))
 
