@@ -1,7 +1,7 @@
 var mp3btn = document.getElementById('mp3');
 var mp4btn = document.getElementById('mp4');
 var urlInput = document.querySelector('.URL-input');
-var server = 'http://localhost:4000';
+var server = 'https://youtube-downloader-nodejs.herokuapp.com/';
 
 mp3btn.addEventListener('click', () => {
   console.log(`URL: ${urlInput.value}`);
