@@ -4,10 +4,11 @@ const ytdl = require('ytdl-core');
 
 const app = express();
 const path = require('path');
+var port = process.env.PORT || 8000;
 
 app.use(cors());
 
-app.listen(process.env.PORT, () => {
+app.listen(port, () => {
   console.log('Server Works !!! At port 4000');
 });
 app.use(express.static('public'))
